@@ -7,7 +7,7 @@ router.get("/", (req, res, next) => {
 });
 
 router.post("/posts", (req, res, next) => {
-  res.end("Hello from POST /posts");
+  res.end("Hello from POST /posts!");
 });
 
 module.exports = {
